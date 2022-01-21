@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Movies]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY(1, 1),
+    [Name] NCHAR(100) NOT NULL, 
+    [Cast] NCHAR(100) NULL
+)

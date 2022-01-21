@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMyShow", "BookMyShow.csproj", "{90DCBE32-E61B-47D0-8E2C-A935AFA2C53C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookMyShow", "BookMyShow.csproj", "{90DCBE32-E61B-47D0-8E2C-A935AFA2C53C}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BookMyShowDb", "..\BookMyShowDb\BookMyShowDb.sqlproj", "{FA8BAE44-0A8E-4307-B47A-843BE180C4D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,12 @@ Global
 		{90DCBE32-E61B-47D0-8E2C-A935AFA2C53C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90DCBE32-E61B-47D0-8E2C-A935AFA2C53C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90DCBE32-E61B-47D0-8E2C-A935AFA2C53C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA8BAE44-0A8E-4307-B47A-843BE180C4D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA8BAE44-0A8E-4307-B47A-843BE180C4D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA8BAE44-0A8E-4307-B47A-843BE180C4D0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FA8BAE44-0A8E-4307-B47A-843BE180C4D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA8BAE44-0A8E-4307-B47A-843BE180C4D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA8BAE44-0A8E-4307-B47A-843BE180C4D0}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
