@@ -1,0 +1,1 @@
+﻿:r .\Scripts\PostDeploymentScript.sql

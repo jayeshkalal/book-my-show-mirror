@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="02b4610f-7d4e-40c7-8b23-8db6e1bcc9ba" ChangeDateTime="01/21/2022 19:43:06">
+    <Property Name="ElementName" Value="[dbo].[TheatreScreenMapping].[ScreenId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TheatreScreenMapping]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MovieId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c6b18d1e-0c9d-40c1-b3a1-609a297e85db" ChangeDateTime="01/21/2022 19:48:47">
+    <Property Name="ElementName" Value="[dbo].[Bookings].[MovieId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Bookings]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MovieTheaterId" />
+  </Operation>
+</Operations>
