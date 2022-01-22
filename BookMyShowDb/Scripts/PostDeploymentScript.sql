@@ -2,7 +2,7 @@
 BEGIN
 	SET IDENTITY_INSERT [dbo].[Cities] ON
 	INSERT INTO [dbo].[Cities]
-		([Id], [City], [Location])
+		([Id], [Name], [Location])
 	VALUES (1, 'Pune', 'Pune City')
 	,(2, 'Pune', 'PCMC')
 	,(3, 'Pune', 'Wakad')

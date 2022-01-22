@@ -24,3 +24,9 @@ hs_err_pid*
 /.vs
 /BookMyShowDb/bin/Debug
 /BookMyShowDb/obj/Debug
+/BookMyShow.DAL/bin/Debug/net6.0
+/BookMyShow.DAL/obj
+/BookMyShow.Models/bin/Debug/net6.0
+/BookMyShow.Models/obj
+/BookMyShowDb/BookMyShowDb.jfm
+/BookMyShowDb/BookMyShowDb.dbmdl
